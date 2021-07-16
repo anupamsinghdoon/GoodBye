@@ -16,7 +16,8 @@ exports.greeting = async function (context, event, callback) {
     Remember.repeat = false;
     Remember.transfer_agent = false;
     Remember.from_task = 'greeting';
-    // this update from VS code.
+    // this update from VS code...
+  
 
     Say = `To talk to an agent say agent or press 1, otherwise we can end the call.`;
     Listen = {
